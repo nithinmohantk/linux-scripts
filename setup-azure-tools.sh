@@ -4,7 +4,7 @@
 ### Install PowerShell Core https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7#ubuntu-1804
 
 # Download the Microsoft repository GPG keys
-wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
+wget -q https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
 # Register the Microsoft repository GPG keys
 sudo dpkg -i packages-microsoft-prod.deb
 # Update the list of products
